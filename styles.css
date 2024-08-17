@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #eff6ff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 35px;
+}
+.logo {
+  color: #1e40af;
+}
+#message {
+  color: #172554;
+}
+.amount label {
+  font-size: large;
+  font-weight: bold;
+  color: #172554;
+}
+.amount #input-amount {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  margin-left: 10px;
+  padding-left: 15px;
+  color: #172554;
+  font-size: large;
+  font-weight: bold;
+}
+#err-message {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 80px;
+  color: #ef4444;
+}
+.from-currencyList-conatiner {
+  margin-top: 30px;
+}
+.from-currencyList-conatiner label {
+  font-size: large;
+  font-weight: bold;
+  color: #172554;
+}
+#from-currencyList {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  margin-left: 10px;
+  padding-left: 15px;
+  color: #172554;
+  font-size: large;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.converter-image {
+  margin-top: 20px;
+
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  border-radius: 22px;
+  background-color: #172554;
+}
+.converter-image h2 {
+  text-align: center;
+  margin-top: 5px;
+  color: #eff6ff;
+}
+.to-currencyList-conatiner {
+  margin-top: 20px;
+}
+.to-currencyList-conatiner label {
+  font-size: large;
+  font-weight: bold;
+  color: #172554;
+}
+#to-currencyList {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  margin-left: 10px;
+  padding-left: 15px;
+  color: #172554;
+  font-size: large;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#convert-btn {
+  margin-top: 30px;
+  width: 120px;
+  height: 40px;
+  background-color: #1d4ed8;
+  color: #eff6ff;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+#convert-btn:hover {
+  background-color: #1e3a8a;
+}
+.result-container {
+  margin-top: 10px;
+}
+#result-1 {
+  color: #172554;
+}
+#result-2 {
+  text-align: center;
+  color: #1e3a8a;
+}
